@@ -38,7 +38,7 @@ public class TestTwo {
 				break;
 
 			case "2" :
-				System.out.println("decrypted message: " + decrypt(str, keyVal));
+				System.out.println("decrypted message: " + decrypt(encrypt(str, keyVal),keyVal));
 				break;
 				
 			 default:
